@@ -1,0 +1,110 @@
+<meta charset="UTF-8">
+
+<!------- Ejercicio 1 ------->
+
+<script>
+    var tablaDeMultiplicar = 8;
+    document.write(tablaDeMultiplicar + " veces 1 es " + tablaDeMultiplicar* 1 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 2 es " + tablaDeMultiplicar* 2 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 3 es " + tablaDeMultiplicar* 3 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 4 es " + tablaDeMultiplicar* 4 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 5 es " + tablaDeMultiplicar* 5 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 6 es " + tablaDeMultiplicar* 6 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 7 es " + tablaDeMultiplicar* 7 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 8 es " + tablaDeMultiplicar* 8 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 9 es " + tablaDeMultiplicar* 9 + "<br>");
+    document.write(tablaDeMultiplicar + " veces 10 es " + tablaDeMultiplicar* 10 + "<br>");
+</script>
+ 
+<!------- Ejercicio 2 ------->
+
+<h3>¿Alcohol o Gasolina?</h3>
+
+<script> 
+var tanque = 40;
+
+var caminoConGasolina = 480;
+var consumoDeGasolina = caminoConGasolina/tanque;
+
+var caminoConAlcohol = 300;
+var consumoDeAlcohol = caminoConAlcohol/tanque;
+
+document.write("La eficiencia del carro usando gasolina es " + consumoDeGasolina + " km/L"); 
+document.write("<br>"); 
+document.write("La eficiencia del carro usando alcohol es " + consumoDeAlcohol + " km/L");
+
+</script>
+
+<!------- Ejercicio 3 ------->
+
+<script>
+    function mostrarAlerta(mensaje) {
+        alert("***" + mensaje + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+</script>
+
+<!------- Ejercicio 4 ------->
+
+
+<br>
+<br>
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+    }
+
+    var miEdad = 18;
+    var edadHermano = 15;
+
+    imprimir("Nuestra diferencia de edad es " + (miEdad - edadHermano));
+ </script>
+
+<!------- Ejercicio 5 ------->
+
+<br>
+<br>
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var invitados = parseInt(prompt("Número de invitados"));
+    var vips = parseInt(prompt("Número de invitados VIP's"));
+
+    var total = invitados + vips;
+
+    imprimir("El total de invitados es " + total);
+
+</script>
+
+<!------- Ejercicio 5 ------->
+
+<br>
+<br>
+<script>
+    
+    if(contrasenha == "micontrasenha123") {
+    alert("Acceso liberado!");
+} else {
+    alert("Acceso negado!");
+}
+
+</script>
